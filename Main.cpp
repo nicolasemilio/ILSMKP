@@ -43,7 +43,7 @@ int main(int argc, char** argv) {
 	Read_Instance();
 	srand48(Seed);
 	ILS();
-	GenerateOutputFileLON();
+	//GenerateOutputFileLON();
 	//PrintInstancia();
 
 

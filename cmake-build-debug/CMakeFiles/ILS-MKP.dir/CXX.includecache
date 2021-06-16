@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/nicolasrojasmorales/Documents/Research/Codes/ILS-MKP/CandidateSolution.h
+/Users/nicolasrojasmorales/Documents/ResearchRepo/Codes/ILS-MKP/CandidateSolution.h
 vector
 -
 cstdlib
@@ -18,23 +18,23 @@ iostream
 stdio.h
 -
 
-/Users/nicolasrojasmorales/Documents/Research/Codes/ILS-MKP/ILS-Functions.cpp
+/Users/nicolasrojasmorales/Documents/ResearchRepo/Codes/ILS-MKP/ILS-Functions.cpp
 ILS-Functions.h
-/Users/nicolasrojasmorales/Documents/Research/Codes/ILS-MKP/ILS-Functions.h
+/Users/nicolasrojasmorales/Documents/ResearchRepo/Codes/ILS-MKP/ILS-Functions.h
 CandidateSolution.h
-/Users/nicolasrojasmorales/Documents/Research/Codes/ILS-MKP/CandidateSolution.h
+/Users/nicolasrojasmorales/Documents/ResearchRepo/Codes/ILS-MKP/CandidateSolution.h
 Initialize.h
-/Users/nicolasrojasmorales/Documents/Research/Codes/ILS-MKP/Initialize.h
+/Users/nicolasrojasmorales/Documents/ResearchRepo/Codes/ILS-MKP/Initialize.h
 
-/Users/nicolasrojasmorales/Documents/Research/Codes/ILS-MKP/ILS-Functions.h
+/Users/nicolasrojasmorales/Documents/ResearchRepo/Codes/ILS-MKP/ILS-Functions.h
 vector
 -
 iostream
 -
 CandidateSolution.h
-/Users/nicolasrojasmorales/Documents/Research/Codes/ILS-MKP/CandidateSolution.h
+/Users/nicolasrojasmorales/Documents/ResearchRepo/Codes/ILS-MKP/CandidateSolution.h
 
-/Users/nicolasrojasmorales/Documents/Research/Codes/ILS-MKP/Initialize.h
+/Users/nicolasrojasmorales/Documents/ResearchRepo/Codes/ILS-MKP/Initialize.h
 sstream
 -
 fstream

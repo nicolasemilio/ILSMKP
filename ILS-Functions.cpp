@@ -26,8 +26,6 @@ void ILS(){
 
     tries = 0;
 
-    //AGREGAR CONTEO DE EVALUACIONES
-    //
     while(numEvals < TotalEvaluations) {
         AuxCS = CurrentSolution;
         Perturbation(AuxCS);
@@ -39,6 +37,8 @@ void ILS(){
         }
         tries++;
     }
+
+    cout << CurrentSolution.getQuality() << endl;
 
     //cout << tries << endl;
     //CurrentSolution.PrintSolution();

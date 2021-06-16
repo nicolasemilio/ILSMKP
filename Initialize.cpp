@@ -11,7 +11,7 @@ void Capture_Params(int argc, char **argv) {
     Seed = atoi(argv[2]);
     TotalEvaluations = atoi(argv[3]);
     numberPerturbations = atoi(argv[4]);
-    OutputFile = argv[5];
+    //OutputFile = argv[5];
 
 }
 
