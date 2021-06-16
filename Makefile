@@ -1,6 +1,6 @@
-PROJECT = Methods
+PROJECT = ILSMKP
 CFLAGS = -Wall -g -O3
-OBJECTS = Main.o ACO.o Ant.o Initialize.o FDC.o
+OBJECTS = Main.o Initialize.o CandidateSolution.o ILS-Functions.o
 
 all: $(PROJECT)
 
@@ -13,17 +13,14 @@ $(PROJECT): $(OBJECTS)
 Main.o: Main.cpp
 	g++ $(CFLAGS) -c Main.cpp
 	
-ACO.o: ACO.cpp ACO.h
-	g++ $(CFLAGS) -c ACO.cpp
-	
-Ant.o: Ant.cpp Ant.h
-	g++ $(CFLAGS) -c Ant.cpp
-
 Initialize.o: Initialize.cpp Initialize.h
 	g++ $(CFLAGS) -c Initialize.cpp
 
-FDC.o: FDC.cpp FDC.h
-	g++ $(CFLAGS) -c FDC.cpp
+CandidateSolution.o: CandidateSolution.cpp CandidateSolution.h
+	g++ $(CFLAGS) -c CandidateSolution.cpp
+
+ILS-Functions.o: ILS-Functions.cpp ILS-Functions.h
+	g++ $(CFLAGS) -c ILS-Functions.cpp
 
 clean:
 	rm $(OBJECTS) $(PROJECT)
